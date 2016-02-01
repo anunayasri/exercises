@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>HTML form exercise</title>
+</head>
+<body>
+    <h1>Contact form</h1>
+    <form action="#" method="get">
+        Yourname<sup>*</sup>:
+        <input type="text" name="yourname" /><br />
+
+        Email<sup>*</sup>:
+        <input type="email" name="email" style="background-color:yellow" /><br />
+
+        Phone number:
+        <input type="text" name="phone" style="background-color:yellow" /><br />
+
+        Website<sup>*</sup>:
+        <input type="text" name="website" value="http://" /><br />
+
+        <br />
+        Comments<sup>*</sup>: <br />
+        <textarea name="comments"></textarea><br />
+        </form>
+
+        <br />
+
+        <form action="#" method="post">
+        Your name: 
+        <input type="text" name="yourname" style="background-color:yellow" /><br />
+        Password:
+        <input type="password" name="password" style="background-color:yellow" /><br />
+        <br />
+
+        Do you like pizza ? <br />
+        <input type="radio" name="like_pizza" value="yes" /> Yes <br/>
+        <input type="radio" name="like_pizza" value="no" /> No <br />
+        <input type="radio" name="like_pizza" value="maybe" /> maybe <br/>
+        <input type="radio" name="like_pizza" value="never tried" /> never tried <br/>
+        <br />
+
+        <input type="checkbox" name="like_service" value="yes"> Check this box if you like our service <br />
+        <br />
+        Anything you would like to say ?<br />
+        <textarea></textarea> <br />
+        <br />
+        I like <br />
+        <select name="like" multiple>
+            <option value="mushrooms">Mushrooms</option>
+            <option value="green_peppers">Green peppers</option>
+            <option value="onions">Onions</option>
+            <option value="tomatoes">Tomatoes</option>
+        </select>
+        <br />
+        <br />
+        Your favourite colour:<br />
+        <select name="faourite_colour">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+        <br />
+        <br />
+        Attach file:<br />
+        <input type="file" name="upload" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="button" value="Reset" />
+    </form>
+</body>
+</html>

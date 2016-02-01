@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>CSS1</title>
+    <style type="text/css">
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2 {
+            color: rgb(128, 0, 255);
+        }
+        div#i_container {
+            border: solid;
+            border-width: 1px;
+            background-color: rgb(200,200,200);
+            width: 500px;
+            padding: 10px;
+        }
+        td {
+            padding: 5px;
+        }
+        .c_label {
+            text-align: right;
+        }
+        .sub_btn {
+            background-color: rgb(200, 50, 50);
+            border-width: 1px;
+            border-color: rgb(200,10,10);
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="center">Please fill the form below</h2>
+    <br />
+    <div id="i_container" class="center">
+    <form action="#" method="post">
+        <table class="center">
+            <tr>
+                <td class="c_label">First Name</td>
+                <td class="c_input"><input type="text" name="first_name"/></td>
+            </tr>
+            <tr>
+                <td class="c_label">Last Name</td>
+                <td class="c_input"><input type="text" name="last_name"/></td>
+            </tr>
+            <tr>
+                <td class="c_label">Email Address</td>
+                <td class="c_input"><input type="email" name="email"/></td>
+            </tr>
+            <tr>
+                <td class="c_label">Password</td>
+                <td class="c_input"><input type="password" name="password"/></td>
+            </tr>
+            <tr>
+                <td class="c_label">Gender</td>
+                <td class="c_input">
+                    <input type="radio" name="gender" value="male">Male</option>
+                    <input type="radio" name="gender" value="female">Female</option>
+                </td>
+            </tr>
+            <tr>
+                <td class="c_label">Date of Birth</td>
+                <td class="c_input"><input type="date" name="dob" /></td>
+            </tr>
+            <tr>
+                <td class="c_label">Address</td>
+                <td class="c_input"><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td class="c_label"></td>
+                <td class="c_input"><input type="submit" value="Submit details" class="sub_btn"/></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
