@@ -1,0 +1,46 @@
+<head>
+<title>Registration Form</title>
+<script src="regis_form.js"></script>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <hr />
+
+    <table>
+    <tr>
+        <td>Email</td>
+        <td><input type="text" id="email" /></td>
+    </tr>
+    <tr>
+        <td>Username</td>
+        <td><input type="text" id="username" /></td>
+    </tr>
+    <tr>
+        <td>Timezone</td>
+        <td>
+            <select id="timezone">
+                <option>GMT</option>
+                <option>GMT + 5:30</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>URL</td>
+        <td><input type="text" id="url" /></td>
+    </tr>
+    <tr>
+        <td>About me</td>
+        <td><input type="text" id="about_me" /></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button id="btn_submit" onclick="validate()">Submit</button></td>
+    </tr>
+    </table>
+
+    <br />
+    <br />
+    <div>
+        <span id="error_div" style="color: red"></span>
+    </div>
+</body>
